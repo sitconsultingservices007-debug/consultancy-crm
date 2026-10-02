@@ -5,3 +5,4 @@
 4. Create the first admin with `supabase/bootstrap.sql`
 5. `npm run dev`, then sign in
 Deploy: push to GitHub, import in Vercel, add the two env vars.
+trigger 
