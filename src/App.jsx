@@ -10,11 +10,13 @@ import Finance from './pages/Finance.jsx'
 import Reminders from './pages/Reminders.jsx'
 import Reports from './pages/Reports.jsx'
 import Users from './pages/Users.jsx'
+import Apply from './pages/Apply.jsx'  
 
 export default function App() {
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
+      <Route path="/apply" element={<Apply />} />
       <Route element={<RequireAuth />}>
         <Route element={<Layout />}>
           <Route path="/" element={<Dashboard />} />
